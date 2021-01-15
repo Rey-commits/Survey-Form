@@ -1,12 +1,51 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet" href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</head>
+
+<body>
+  <h1 id="title">Captain America Survey Form</h1>
+  <p>Thank you for taking the time to help us improve the platform</p>
+  <div id="body">
+    <form id="survey-form" action="index.html" method="post">
+      <label id="name-label" for="name">
+        <p>Name:</p>
+      </label>
+
+      <input id="name" type="text" placeholder="Enter Your Name" name="" value="" required>
+
+      <label id="email-label" for="email">
+        <p>Email:</p>
+      </label>
+
+      <input id="email" type="email" placeholder="Enter Your Email" name="" value="" required>
+
+      <label id="number-label" for="number">
+        <p>Age:</p>
+      </label>
+
+      <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" name="" value="" required>
+
+      <p>Which Leadership Quality Do You Think make Captain America A Good Leader:</p>
+      <select id="dropdown" name="">
+
+        <option value="default">Nothing</option>
+        <option value="He has a moral center.">He has a moral center.</option>
+        <option value="He stands for something.">He stands for something.</option>
+        <option value="He shuns the limelight.">He shuns the limelight.</option>
+        <option value="He protects his team.">He protects his team.</option>
+        <option value="He adapts to strengths and weaknesses.">He adapts to strengths and weaknesses.</option>
+
+      </select>
+
+    </form>
+
+  </div>
+</body>
+
 </html>
